@@ -1,0 +1,17 @@
+1、bagImg文件夹加入cropName.png 
+背包里面显示图片
+2、changeOperateImg文件夹加入cropName.png
+播种时图片
+3、cropImg新建文件夹名字为cropName 此文件夹下面存放0.png 1.png 2.png 4、3.png 4.png 5.png(种子 发芽 小叶子 大叶子 开花 成熟)
+土地各阶段图片
+5、gainFruit文件夹中加入cropName.png
+收货时果实升天图片
+
+数据库
+insert into crop_info
+values(crop_id, st1, st2, st3, st4, st5, crop_name)
+
+crop_id 最好101 102 103 104 ....
+crop_name格式seed+作物英文名
+st1 到 st5格式 字符串  '时 分 秒'
+
